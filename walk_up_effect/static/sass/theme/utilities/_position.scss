@@ -1,0 +1,17 @@
+//
+// position.scss
+// Extended from Bootstrap
+//
+
+.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bg-offset {
+  top: 2% !important;
+  bottom: 4% !important;
+  left: 3% !important;
+  right: 4% !important;
+}

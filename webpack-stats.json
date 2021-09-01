@@ -1,0 +1,279 @@
+{
+  "status": "done",
+  "assets": {
+    "./css/libs.bundle.css": {
+      "name": "./css/libs.bundle.css",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/css/libs.bundle.css"
+    },
+    "./css/theme.bundle.css": {
+      "name": "./css/theme.bundle.css",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/css/theme.bundle.css"
+    },
+    "./js/theme.bundle.js": {
+      "name": "./js/theme.bundle.js",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/js/theme.bundle.js"
+    },
+    "./js/vendor.bundle.js": {
+      "name": "./js/vendor.bundle.js",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/js/vendor.bundle.js"
+    },
+    "favicon/favicon.ico": {
+      "name": "favicon/favicon.ico",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/favicon/favicon.ico"
+    },
+    "fonts/.gitkeep": {
+      "name": "fonts/.gitkeep",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/fonts/.gitkeep"
+    },
+    "fonts/Feather/Feather.svg": {
+      "name": "fonts/Feather/Feather.svg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/fonts/Feather/Feather.svg"
+    },
+    "fonts/Feather/Feather.ttf": {
+      "name": "fonts/Feather/Feather.ttf",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/fonts/Feather/Feather.ttf"
+    },
+    "fonts/Feather/Feather.woff": {
+      "name": "fonts/Feather/Feather.woff",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/fonts/Feather/Feather.woff"
+    },
+    "fonts/Inter/Inter-Light.woff": {
+      "name": "fonts/Inter/Inter-Light.woff",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/fonts/Inter/Inter-Light.woff"
+    },
+    "fonts/Inter/Inter-Light.woff2": {
+      "name": "fonts/Inter/Inter-Light.woff2",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/fonts/Inter/Inter-Light.woff2"
+    },
+    "fonts/Inter/Inter-Medium.woff": {
+      "name": "fonts/Inter/Inter-Medium.woff",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/fonts/Inter/Inter-Medium.woff"
+    },
+    "fonts/Inter/Inter-Medium.woff2": {
+      "name": "fonts/Inter/Inter-Medium.woff2",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/fonts/Inter/Inter-Medium.woff2"
+    },
+    "fonts/Inter/Inter-Regular.woff": {
+      "name": "fonts/Inter/Inter-Regular.woff",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/fonts/Inter/Inter-Regular.woff"
+    },
+    "fonts/Inter/Inter-Regular.woff2": {
+      "name": "fonts/Inter/Inter-Regular.woff2",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/fonts/Inter/Inter-Regular.woff2"
+    },
+    "fonts/Metropolis/Metropolis-Black.woff": {
+      "name": "fonts/Metropolis/Metropolis-Black.woff",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/fonts/Metropolis/Metropolis-Black.woff"
+    },
+    "fonts/Metropolis/Metropolis-Black.woff2": {
+      "name": "fonts/Metropolis/Metropolis-Black.woff2",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/fonts/Metropolis/Metropolis-Black.woff2"
+    },
+    "fonts/Metropolis/Metropolis-Bold.woff": {
+      "name": "fonts/Metropolis/Metropolis-Bold.woff",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/fonts/Metropolis/Metropolis-Bold.woff"
+    },
+    "fonts/Metropolis/Metropolis-Bold.woff2": {
+      "name": "fonts/Metropolis/Metropolis-Bold.woff2",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/fonts/Metropolis/Metropolis-Bold.woff2"
+    },
+    "fonts/Metropolis/Metropolis-ExtraBold.woff": {
+      "name": "fonts/Metropolis/Metropolis-ExtraBold.woff",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/fonts/Metropolis/Metropolis-ExtraBold.woff"
+    },
+    "fonts/Metropolis/Metropolis-ExtraBold.woff2": {
+      "name": "fonts/Metropolis/Metropolis-ExtraBold.woff2",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/fonts/Metropolis/Metropolis-ExtraBold.woff2"
+    },
+    "fonts/Metropolis/Metropolis-Medium.woff": {
+      "name": "fonts/Metropolis/Metropolis-Medium.woff",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/fonts/Metropolis/Metropolis-Medium.woff"
+    },
+    "fonts/Metropolis/Metropolis-Medium.woff2": {
+      "name": "fonts/Metropolis/Metropolis-Medium.woff2",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/fonts/Metropolis/Metropolis-Medium.woff2"
+    },
+    "fonts/Metropolis/Metropolis-SemiBold.woff": {
+      "name": "fonts/Metropolis/Metropolis-SemiBold.woff",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/fonts/Metropolis/Metropolis-SemiBold.woff"
+    },
+    "fonts/Metropolis/Metropolis-SemiBold.woff2": {
+      "name": "fonts/Metropolis/Metropolis-SemiBold.woff2",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/fonts/Metropolis/Metropolis-SemiBold.woff2"
+    },
+    "images/brand-icon.svg": {
+      "name": "images/brand-icon.svg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/brand-icon.svg"
+    },
+    "images/brand.svg": {
+      "name": "images/brand.svg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/brand.svg"
+    },
+    "images/avatars/team-brando-alt.png": {
+      "name": "images/avatars/team-brando-alt.png",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/avatars/team-brando-alt.png"
+    },
+    "images/avatars/team-brando-fun.jpg": {
+      "name": "images/avatars/team-brando-fun.jpg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/avatars/team-brando-fun.jpg"
+    },
+    "images/avatars/team-brando.jpg": {
+      "name": "images/avatars/team-brando.jpg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/avatars/team-brando.jpg"
+    },
+    "images/avatars/team-brando.webp": {
+      "name": "images/avatars/team-brando.webp",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/avatars/team-brando.webp"
+    },
+    "images/avatars/team-joey-alt.png": {
+      "name": "images/avatars/team-joey-alt.png",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/avatars/team-joey-alt.png"
+    },
+    "images/avatars/team-joey.jpg": {
+      "name": "images/avatars/team-joey.jpg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/avatars/team-joey.jpg"
+    },
+    "images/avatars/team-joey.webp": {
+      "name": "images/avatars/team-joey.webp",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/avatars/team-joey.webp"
+    },
+    "images/avatars/team-trevor-alt.png": {
+      "name": "images/avatars/team-trevor-alt.png",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/avatars/team-trevor-alt.png"
+    },
+    "images/avatars/team-trevor.jpg": {
+      "name": "images/avatars/team-trevor.jpg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/avatars/team-trevor.jpg"
+    },
+    "images/avatars/team-trevor.webp": {
+      "name": "images/avatars/team-trevor.webp",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/avatars/team-trevor.webp"
+    },
+    "images/covers/cover-1-min.jpg": {
+      "name": "images/covers/cover-1-min.jpg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/covers/cover-1-min.jpg"
+    },
+    "images/covers/cover-1-min.webp": {
+      "name": "images/covers/cover-1-min.webp",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/covers/cover-1-min.webp"
+    },
+    "images/covers/cover-16.jpg": {
+      "name": "images/covers/cover-16.jpg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/covers/cover-16.jpg"
+    },
+    "images/covers/cover-19.jpg": {
+      "name": "images/covers/cover-19.jpg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/covers/cover-19.jpg"
+    },
+    "images/covers/cover-19.webp": {
+      "name": "images/covers/cover-19.webp",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/covers/cover-19.webp"
+    },
+    "images/favicons/favicon.ico": {
+      "name": "images/favicons/favicon.ico",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/favicons/favicon.ico"
+    },
+    "images/photos/classroom.jpg": {
+      "name": "images/photos/classroom.jpg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/photos/classroom.jpg"
+    },
+    "images/photos/photo-27.jpg": {
+      "name": "images/photos/photo-27.jpg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/photos/photo-27.jpg"
+    },
+    "images/photos/school-lockers.jpg": {
+      "name": "images/photos/school-lockers.jpg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/photos/school-lockers.jpg"
+    },
+    "images/photos/student.jpg": {
+      "name": "images/photos/student.jpg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/photos/student.jpg"
+    },
+    "images/patterns/bg-color-wave.svg": {
+      "name": "images/patterns/bg-color-wave.svg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/patterns/bg-color-wave.svg"
+    },
+    "images/patterns/pattern-1.svg": {
+      "name": "images/patterns/pattern-1.svg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/patterns/pattern-1.svg"
+    },
+    "images/patterns/pattern-2.png": {
+      "name": "images/patterns/pattern-2.png",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/patterns/pattern-2.png"
+    },
+    "images/icons/social/facebook.svg": {
+      "name": "images/icons/social/facebook.svg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/icons/social/facebook.svg"
+    },
+    "images/icons/social/instagram.svg": {
+      "name": "images/icons/social/instagram.svg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/icons/social/instagram.svg"
+    },
+    "images/icons/social/linkedin.svg": {
+      "name": "images/icons/social/linkedin.svg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/icons/social/linkedin.svg"
+    },
+    "images/icons/social/twitter.svg": {
+      "name": "images/icons/social/twitter.svg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/icons/social/twitter.svg"
+    },
+    "images/icons/zaps/zap-01.svg": {
+      "name": "images/icons/zaps/zap-01.svg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/icons/zaps/zap-01.svg"
+    },
+    "images/icons/zaps/zap-02.svg": {
+      "name": "images/icons/zaps/zap-02.svg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/icons/zaps/zap-02.svg"
+    },
+    "images/icons/zaps/zap-03.svg": {
+      "name": "images/icons/zaps/zap-03.svg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/icons/zaps/zap-03.svg"
+    },
+    "images/icons/zaps/zap-04.svg": {
+      "name": "images/icons/zaps/zap-04.svg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/icons/zaps/zap-04.svg"
+    },
+    "images/icons/zaps/zap-05.svg": {
+      "name": "images/icons/zaps/zap-05.svg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/icons/zaps/zap-05.svg"
+    },
+    "images/icons/zaps/zap-06.svg": {
+      "name": "images/icons/zaps/zap-06.svg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/icons/zaps/zap-06.svg"
+    },
+    "images/icons/zaps/zap-07.svg": {
+      "name": "images/icons/zaps/zap-07.svg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/icons/zaps/zap-07.svg"
+    },
+    "video/video-1.mp4": {
+      "name": "video/video-1.mp4",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/video/video-1.mp4"
+    },
+    "./css/libs.bundle.css.map": {
+      "name": "./css/libs.bundle.css.map",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/css/libs.bundle.css.map"
+    },
+    "./css/theme.bundle.css.map": {
+      "name": "./css/theme.bundle.css.map",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/css/theme.bundle.css.map"
+    },
+    "./js/theme.bundle.js.map": {
+      "name": "./js/theme.bundle.js.map",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/js/theme.bundle.js.map"
+    },
+    "./js/vendor.bundle.js.map": {
+      "name": "./js/vendor.bundle.js.map",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/js/vendor.bundle.js.map"
+    }
+  },
+  "chunks": {
+    "libs": [
+      "./css/libs.bundle.css"
+    ],
+    "theme": [
+      "./js/vendor.bundle.js",
+      "./css/theme.bundle.css",
+      "./js/theme.bundle.js"
+    ]
+  }
+}

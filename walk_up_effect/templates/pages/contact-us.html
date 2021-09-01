@@ -1,0 +1,216 @@
+<!-- prettier-ignore -->
+{% extends "base.html" %}
+{% load static i18n compress %}
+{% block title %}Our Team{% endblock title %}
+
+<!-- prettier-ignore -->
+{% block javascript %}
+  {% compress js %}
+    <script defer src="{% static 'js/user/sweet-alerts.js' %}"></script>
+  {% endcompress js %}
+{% endblock javascript %}
+
+<!-- prettier-ignore -->
+{% block content %}
+<!-- HEADER -->
+<section class="mt-n11 pt-12 pb-4 pt-md-14 bg-black bg-pattern-2">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10 text-center">
+        <h1
+          class="display-2 fw-bold text-white section-header"
+          data-aos="fade-up"
+          data-aos-delay="50"
+        >
+          How can we <span class="zap-02">help</span> you?
+        </h1>
+        <p
+          class="lead text-gray-500 mb-6 mx-auto"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          style="max-width: 500px"
+        >
+          We always want to hear from you! Let us know if there is anything that
+          we can help you with.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-2 py-md-4 bg-dark" id="info">
+  <div class="container">
+    <div class="row pb-8">
+      <div class="col-12 text-center">
+        <!-- Heading -->
+        <h6 class="text-uppercase text-gray-700 mb-1">Email us</h6>
+
+        <!-- Link -->
+        <a href="#!" class="h4 font-300 text-info">
+          support@thewalkupeffect.org
+        </a>
+      </div>
+    </div>
+
+    <!-- Button  -->
+    <div class="position-absolute right-0 bottom-0 left-0">
+      <!-- Divider -->
+      <div class="bg-dark">
+        <div
+          class="container border-top border-gray-800"
+          style="z-index: auto"
+        ></div>
+      </div>
+
+      <div class="position-absolute center">
+        <a
+          class="btn btn-light btn-rounded-circle lift"
+          data-scroll
+          href="#form"
+        >
+          <i class="fe fe-arrow-down"></i>
+        </a>
+      </div>
+    </div>
+    <!-- END Button  -->
+  </div>
+</section>
+<!-- FORM -->
+<section class="pt-6 pt-md-10 bg-dark">
+  <div class="container">
+    <div class="row justify-content-center" id="form">
+      <div class="col-12 col-md-12 col-lg-10">
+        <!-- Form  novalidate-->
+        <form
+          class="needs-validation"
+          id="contact-form"
+          action="https://formspree.io/f/myylgwkl"
+          method="POST"
+        >
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="form-group mb-5">
+                <!-- Input -->
+                <input
+                  class="form-control form-control-flush bg-dark text-white"
+                  id="contactName"
+                  type="text"
+                  name="full_name"
+                  placeholder="Full name"
+                  required
+                />
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="form-group mb-5">
+                <!-- Input -->
+                <input
+                  class="form-control form-control-flush bg-dark text-white"
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+              <input
+                type="hidden"
+                name="_subject"
+                value="New submission from the Walk Up site!"
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="form-group mb-5">
+                <!-- Input -->
+                <input
+                  class="form-control form-control-flush bg-dark text-white"
+                  type="text"
+                  name="school"
+                  placeholder="School name"
+                  required
+                />
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="form-group mb-5">
+                <!-- Input -->
+                <input
+                  class="form-control form-control-flush bg-dark text-white"
+                  type="text"
+                  name="city"
+                  placeholder="School city"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="col-12 col-md-2">
+              <div class="form-group mb-5">
+                <!-- Input -->
+                <input
+                  class="form-control form-control-flush bg-dark text-white"
+                  type="text"
+                  name="state"
+                  placeholder="State"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <div class="form-group mb-5">
+                <select
+                  class="form-select form-select-sm form-control-flush bg-dark text-white"
+                  name="relationship"
+                  data-choices
+                  required
+                >
+                  <option value="" disabled selected>Select one</option>
+                  <option>Teacher</option>
+                  <option>Administrator</option>
+                  <option>PTA Member</option>
+                  <option>Parent</option>
+                  <option>Other</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <div class="form-group mb-7 mb-md-9">
+                <!-- Input -->
+                <textarea
+                  class="form-control form-control-flush bg-dark text-white"
+                  rows="2"
+                  name="message"
+                  placeholder="Tell us what we can help you with!"
+                  required
+                ></textarea>
+              </div>
+            </div>
+          </div>
+
+          <div class="row justify-content-center pb-8">
+            <div class="col-auto">
+              <!-- Submit -->
+              <button
+                id="contact-form-button"
+                type="submit"
+                class="btn btn-info text-white lift"
+              >
+                Send message
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock content %}

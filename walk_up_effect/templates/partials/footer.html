@@ -1,0 +1,84 @@
+{% load static i18n compress %}
+
+<footer class="pb-8 pb-md-11 bg-dark">
+  <div class="container">
+    <div class="row pt-8 pt-md-11">
+      <div class="col-12 col-md-4 col-lg-3">
+        <!-- Brand -->
+        <img src="{% static "images/brand.svg" %}" alt="..." class="footer-brand
+        img-fluid mb-4" height="25" width="180"/>
+
+        <!-- Social -->
+        <ul class="list-unstyled list-inline list-social mb-6 mb-md-0">
+          <li class="list-inline-item list-social-item mr-3">
+            <a href="#" class="text-decoration-none">
+              <img src="{% static "images/icons/social/instagram.svg" %}"
+              class="list-social-icon" alt="..." height="24" width="24"/>
+            </a>
+          </li>
+          <li class="list-inline-item list-social-item mr-3">
+            <a href="#" class="text-decoration-none">
+              <img src="{% static "images/icons/social/facebook.svg" %}"
+              class="list-social-icon" alt="..." height="24" width="24"/>
+            </a>
+          </li>
+          <li class="list-inline-item list-social-item mr-3">
+            <a href="#" class="text-decoration-none">
+              <img src="{% static "images/icons/social/twitter.svg" %}"
+              class="list-social-icon" alt="..." height="24" width="24"/>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="d-none d-lg-block col-6 col-md-4 col-lg-2"></div>
+
+      <div class="col-6 col-md-4 col-lg-2">
+        <!-- Heading -->
+        <h1 class="fs-5 font-weight-bold text-uppercase text-muted">
+          Learn More
+        </h1>
+
+        <!-- List -->
+        <ul class="list-unstyled text-gray-300 mb-6 mb-md-8 mb-lg-0">
+          <li class="mb-3">
+            <a href="{% url 'mission' %}" class="fs-sm text-reset font-300">
+              Our Mission
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="#" class="fs-sm text-reset font-300"> Donate </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-4 offset-md-4 col-lg-2 offset-lg-0">
+        <!-- Heading -->
+        <h1 class="fs-5 font-weight-bold text-uppercase text-muted">Connect</h1>
+
+        <!-- List -->
+        <ul class="list-unstyled text-gray-300 mb-0">
+          <li class="mb-3">
+            <a href="{% url 'contact-us' %}" class="fs-sm text-reset font-300">
+              How can we help?
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="{% url 'our-team' %}" class="fs-sm text-reset font-300">
+              Meet the Team
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <!-- Heading -->
+        <h1 class="fs-5 font-weight-bold text-uppercase text-muted">Legal</h1>
+        <!-- List -->
+        <ul class="list-unstyled text-gray-300 mb-0">
+          <li class="mb-3">
+            <a href="#" class="fs-sm text-reset font-300"> Terms of Service </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>

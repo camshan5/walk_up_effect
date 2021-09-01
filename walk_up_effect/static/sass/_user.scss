@@ -1,0 +1,190 @@
+// user.scss
+// Use this to write custom SCSS
+// $enable-responsive-font-sizes: true;
+
+
+.hide-sm {
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
+}
+
+.show-md {
+  @include media-breakpoint-up(sm) {
+    display: none;
+  }
+}
+
+.section-header {
+  font-family: $font-family-metropolis;
+  font-weight: $font-weight-bold;
+  font-style: normal;
+}
+
+.section-sub-header {
+  color: $gray-700;
+  font-family: $font-family-base;
+  font-weight: $font-weight-normal;
+  font-style: normal;
+}
+
+.row-grid {
+  p {
+    font-weight: $font-weight-normal;
+    font-size: $font-size-sm; // 15px
+  }
+  // @x-small, @small: <768px
+  @include media-breakpoint-down(md) {
+    h4 {
+      font-size: 1.1875rem !important; // 19px (lead)
+    }
+  }
+  // @medium, @large: ≥768px && <1200px
+  @include media-breakpoint-between(md, xl) {
+    h4 {
+      font-size: 1.0625rem !important; // (17px)
+    }
+  }
+}
+
+// Patterns
+.bg-pattern-2 {
+  background-image: linear-gradient(to bottom, transparent 0%, $dark 100%),
+    url("#{$path-to-img}/patterns/pattern-2.png");
+}
+
+.bg-img-gradient {
+  background-image: linear-gradient(to bottom, transparent 0%, $dark 100%),
+    url("#{$path-to-img}/covers/cover-19.jpg");
+}
+
+.bg-img-gradient-2 {
+  background-image: linear-gradient(to bottom, transparent 0%, $dark 100%),
+    url("#{$path-to-img}/covers/cover-4.jpg");
+}
+
+.bg-gradient-to-dark {
+  background-image: linear-gradient(to bottom, transparent 0%, $dark 100%);
+}
+
+.bg-gradient-black-dark {
+  background-image: linear-gradient(to bottom, $black 0%, $dark 100%);
+}
+
+.bg-gradient-light-white {
+  background-image: linear-gradient(to bottom, $light 0%, $white 100%);
+}
+
+.shadow-multicolor-1 {
+  box-shadow: -50px 50px 100px rgba($primary, 0.2),
+    100px -50px 100px rgba($info, 0.2);
+}
+
+.shadow-multicolor-2 {
+  box-shadow: -20px -10px 90px rgba($info, 0.15),
+    90px 80px 120px rgba($danger, 0.15);
+}
+
+.bg-gradient-multicolor {
+  background-image: conic-gradient(
+    from 52deg at 50% 50%,
+    $danger 0deg,
+    $info 33deg,
+    $info 222deg,
+    $warning 264deg,
+    $danger 295deg,
+    $danger 360deg
+  );
+}
+
+.modal-body {
+  padding: 1rem 2rem 3rem;
+}
+
+.icon-circle-sm {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: $icon-circle-size-sm;
+  height: $icon-circle-size-sm;
+  border-radius: 50%;
+
+  > .fe {
+    font-size: $icon-circle-font-size;
+  }
+}
+
+.icon-circle-xs {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: $icon-circle-size-xs;
+  height: $icon-circle-size-xs;
+  border-radius: 50%;
+
+  > .fe {
+    font-size: $icon-circle-font-size;
+  }
+}
+
+/* ---- Navbar Custom Styles ---- */
+
+// Dropdown image in navbar override
+.navbar-nav .dropdown-img-start {
+  // Overlay
+  &::before {
+    background-color: fade-out($primary, 0.5);
+  }
+}
+
+.navbar {
+  padding-top: $font-size-sm;
+  padding-bottom: $font-size-sm;
+}
+
+.navbar-nav .nav-link {
+  font-size: $font-size-sm;
+}
+
+.navbar-brand-img {
+  max-height: 1.6rem;
+  width: auto;
+}
+
+.font-900 {
+  font-family: $font-family-base;
+  font-weight: $font-weight-black;
+  font-style: normal;
+}
+
+.font-700 {
+  font-family: $font-family-base;
+  font-weight: $font-weight-bolder;
+  font-style: normal;
+}
+
+.font-500 {
+  font-family: $font-family-base;
+  font-weight: $font-weight-medium;
+  font-style: normal;
+}
+
+.font-300 {
+  // Light
+  font-family: $font-family-base;
+  font-weight: $font-weight-light;
+  font-style: normal;
+}
+
+
+.pill-border {
+  border: 1px solid $info !important;
+}
+
+.card-front > .card-body {
+  min-height: 285px;
+}
+
+.card-back > .card-body {
+  min-height: 285px;
+}

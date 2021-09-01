@@ -1,0 +1,41 @@
+////////////////////////////////
+//Stripe Element Overrides//
+////////////////////////////////
+$stripe-red: #fa755a !default;
+$stripe-off-white: #fefde5 !important;
+
+// Custom from theme
+$theme-primary: #61dafb;
+$theme-gray-200: #e5ebf5 !default;
+$theme-warning: #fb8261 !default;
+
+.StripeElement {
+  box-sizing: border-box;
+  height: calc(1.6em + 1.625rem + 2px);
+  border-bottom-color: $theme-gray-200;
+  padding-left: 0;
+  padding-right: 0;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-radius: 0;
+  background-color: $white;
+  box-shadow: none;
+}
+
+.StripeElement--focus {
+  box-shadow: none;
+  border-bottom-color: $theme-primary;
+}
+
+.StripeElement--invalid {
+  border-color: $theme-warning;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: $stripe-off-white;
+}
+
+.ElementsApp input {
+  text-align: center;
+}

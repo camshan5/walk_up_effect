@@ -1,0 +1,39 @@
+{% load crispy_forms_filters %}
+{% load static i18n compress %}
+
+{% block javascript %}
+  <script src="https://js.stripe.com/v3/"></script>
+
+  {% compress js %}
+    <script defer src="{% static 'js/user/stripe.js' %}"></script>
+  {% endcompress js %}
+
+{% endblock javascript %}
+
+<!-- Form -->
+<form action="{% url 'donations:charge' %}" method="post" id="payment-form">
+  {% csrf_token %}
+  <div class="form-floating">
+    <input type="text" class="form-control form-control-flush" id="cardName" placeholder="Full name">
+    <label for="cardName">Full Name</label>
+  </div>
+  <div class="form-floating">
+    <input type="email" class="form-control form-control-flush" id="cardEmail" placeholder="Email">
+    <label for="cardEmail">Email</label>
+  </div>
+  <div class="form-floating">
+    <input type="number" min="1" step="any" class="form-control form-control-flush" id="cardPayment" placeholder="Donation amount">
+    <label for="cardPayment">Donation Amount</label>
+  </div>
+  <div class="form-floating">
+    <!-- A Stripe Element will be inserted here. -->
+    <div id="card-element" class="form-control"></div>
+    <!-- Used to display form errors. -->
+    <div id="card-errors" role="alert"></div>
+  </div>
+  <div class="mt-6">
+     <a href="#" class="btn w-100 btn-primary-soft lift" id="submitBtn" type="submit">
+       Submit <i class="fe fe-arrow-right ms-3"></i>
+     </a>
+  </div>
+</form>

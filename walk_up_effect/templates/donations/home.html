@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+{% load static i18n compress %}
+
+{% block title %}The Walk Up Effect - Donate{% endblock title %}
+
+
+<!-- prettier-ignore -->
+{% block content %}
+
+  <!-- HEADER -->
+  <section class="mt-n11 pt-12 pb-4 pt-md-14 bg-black bg-pattern-2">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-10 text-center">
+        <h1
+            class="display-2 fw-bold text-white section-header"
+            data-aos="fade-up"
+            data-aos-delay="50"
+          >
+            <span class="zap-03">Thank You</span> for Visiting Our Donation Page!
+          </h1>
+          <p
+            class="lead text-gray-500 mb-6 mx-auto"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+           You are here because you know someone who is participating in  <br/>
+            <span class="text-primary"><i>The Walk Up Effect</i></span> event at their school.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- LOCATION -->
+    <section class="py-14 bg-gradient-dark-black">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+
+            <div class="position-relative vw-md-33 vw-75 d-md-block">
+
+             <!-- Card -->
+              <div class="card shadow-lg mb-6 mb-md-0"
+                   data-aos="fade-up"
+                   data-aos-delay="75"
+              >
+                <div class="card-body">
+                  <!-- Preheading -->
+                  <div class="text-center mb-6">
+                    <span class="badge rounded-pill bg-primary-soft">
+                      <span class="h6 text-uppercase">Donation</span>
+                    </span>
+                  </div>
+                    <!-- Form -->
+                    {% include 'donations/payment_form.html' %}
+                  </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-5 offset-lg-1"
+               data-aos="fade-up"
+               data-aos-delay="100"
+          >
+            <!-- Heading -->
+            <h2 class="text-white">
+              Your donation...<br>
+              <span class="text-primary">
+                <span data-typed='{"strings": ["goes directly to the cause", "helps continue our mission", "helps make an impact in your community"]}'></span>.
+              </span>
+            </h2>
+            <!-- Text -->
+            <p class="fs-lg text-gray-700 mb-4">
+              The Walk Up Effect is a program that travels to schools and
+              educates students on mental health and inspires students to be the help and share
+              this donation page to provide hope and healing to those who need it.
+            </p>
+            <!-- Stats -->
+            <p class="fs-lg text-gray-700 mb-2">With your donation we are able to provide:</p>
+            <div class="fs-lg text-gray-700 d-flex">
+              <ol>
+                <li class="mb-1">Schools with amazing speakers to talk about mental health and empowering stories of
+                  overcoming mental health struggles such as child hood trauma to suicidal thoughts.
+                </li>
+                <li class="mb-1">Surrounding communities with amazing events.</li>
+                <li class="mb-1"> Struggling individuals with much needed support.</li>
+              </ol>
+            </div>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+{% endblock content %}

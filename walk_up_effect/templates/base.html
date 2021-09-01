@@ -1,0 +1,98 @@
+{% load static i18n compress %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>{% block title %}The Walk Up Effect{% endblock title %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web app for the Walk Up Effect organization.">
+    <meta name="author" content="Cameron Shannon">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <link rel="icon" href="{% static 'images/favicons/favicon.ico' %}">
+
+    {% block css %}
+      {% compress css %}
+        <!-- Third-party CSS libraries are bundled here -->
+        <link href="{% static 'bundle/css/libs.bundle.css' %}" rel="stylesheet">
+
+        <!-- This file stores project-specific CSS -->
+        <link href="{% static 'bundle/css/theme.bundle.css' %}" rel="stylesheet">
+      {% endcompress %}
+    {% endblock %}
+
+    <!-- Le javascript
+    ================================================== -->
+    {# Placed at the top of the document so pages load faster with defer #}
+
+    {% block javascript %}
+
+      {% compress js %}
+        <!-- Vendor dependencies bundled as one file-->
+        <script defer src="{% static 'bundle/js/vendor.bundle.js' %}"></script>
+
+        <!-- place project specific Javascript in this file type="module" -->
+        <script defer type="module" src="{% static 'bundle/js/theme.bundle.js' %}"></script>
+
+      {% endcompress %}
+
+    {% endblock javascript %}
+
+  </head>
+
+  <body>
+    <!-- ======= NAVBAR ======= -->
+    {% include 'partials/navbar.html' %}
+
+    <!-- prettier-ignore -->
+    <div>
+      {% if messages %}
+        {% for message in messages %}
+          <div
+            class="alert {% if message.tags %}alert-{{ message.tags }}{% endif %}"
+          >
+            {{ message }}
+            <button
+              type="button"
+              class="close"
+              data-dismiss="alert"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        {% endfor %}
+      {% endif %}
+
+      {% block content %}
+        <p> Use this document as a way to quick start any new project. </p>
+
+      {% endblock content %}
+
+      <!-- BORDER -->
+      <div class="bg-dark">
+        <div class="container border-top border-gray-800"></div>
+      </div>
+
+       <!-- FOOTER -->
+      {% block footer %}
+        {% include 'partials/footer.html' %}
+      {% endblock footer %}
+
+
+    </div>
+
+    {% block modal %}{% endblock modal %}
+
+    {% block inline_javascript %}
+    {# Script tags with only code, no src (defer by default) #}
+    {% endblock inline_javascript %}
+
+
+  </body>
+</html>

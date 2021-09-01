@@ -1,0 +1,45 @@
+.rotate-container {
+  width: 100%;
+  height: 350px;
+  perspective: 1500px;
+
+  .content {
+    position: relative;
+    // width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.8s cubic-bezier(0.75, 0, 0.85, 1);
+  }
+}
+
+.more {
+  display: none;
+  &:checked ~ .content {
+    transform: rotateY(180deg);
+  }
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  // top: 0;
+  // left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  border-radius: $border-radius;
+}
+
+.card-front {
+  background-color: $dark;
+
+  &:after {
+    backface-visibility: hidden;
+  }
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  background-color: $dark;
+}
