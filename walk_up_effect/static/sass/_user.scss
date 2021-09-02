@@ -58,10 +58,6 @@
     url("#{$path-to-img}/covers/cover-19.jpg");
 }
 
-.bg-img-gradient-2 {
-  background-image: linear-gradient(to bottom, transparent 0%, $dark 100%),
-    url("#{$path-to-img}/covers/cover-4.jpg");
-}
 
 .bg-gradient-to-dark {
   background-image: linear-gradient(to bottom, transparent 0%, $dark 100%);

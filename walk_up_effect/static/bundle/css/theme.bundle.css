@@ -18100,10 +18100,6 @@ a.card-meta {
   background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#1e273e)), url("../images/covers/cover-19.jpg");
   background-image: linear-gradient(to bottom, transparent 0%, #1e273e 100%), url("../images/covers/cover-19.jpg"); }
 
-.bg-img-gradient-2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#1e273e)), url("../images/covers/cover-4.jpg");
-  background-image: linear-gradient(to bottom, transparent 0%, #1e273e 100%), url("../images/covers/cover-4.jpg"); }
-
 .bg-gradient-to-dark {
   background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#1e273e));
   background-image: linear-gradient(to bottom, transparent 0%, #1e273e 100%); }

@@ -149,6 +149,10 @@
       "name": "images/avatars/team-trevor.webp",
       "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/avatars/team-trevor.webp"
     },
+    "images/favicons/favicon.ico": {
+      "name": "images/favicons/favicon.ico",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/favicons/favicon.ico"
+    },
     "images/covers/cover-1-min.jpg": {
       "name": "images/covers/cover-1-min.jpg",
       "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/covers/cover-1-min.jpg"
@@ -169,9 +173,33 @@
       "name": "images/covers/cover-19.webp",
       "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/covers/cover-19.webp"
     },
-    "images/favicons/favicon.ico": {
-      "name": "images/favicons/favicon.ico",
-      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/favicons/favicon.ico"
+    "images/masks/avatar-group-hover-last.svg": {
+      "name": "images/masks/avatar-group-hover-last.svg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/masks/avatar-group-hover-last.svg"
+    },
+    "images/masks/avatar-group-hover.svg": {
+      "name": "images/masks/avatar-group-hover.svg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/masks/avatar-group-hover.svg"
+    },
+    "images/masks/avatar-group.svg": {
+      "name": "images/masks/avatar-group.svg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/masks/avatar-group.svg"
+    },
+    "images/masks/avatar-status.svg": {
+      "name": "images/masks/avatar-status.svg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/masks/avatar-status.svg"
+    },
+    "images/patterns/bg-color-wave.svg": {
+      "name": "images/patterns/bg-color-wave.svg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/patterns/bg-color-wave.svg"
+    },
+    "images/patterns/pattern-1.svg": {
+      "name": "images/patterns/pattern-1.svg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/patterns/pattern-1.svg"
+    },
+    "images/patterns/pattern-2.png": {
+      "name": "images/patterns/pattern-2.png",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/patterns/pattern-2.png"
     },
     "images/photos/classroom.jpg": {
       "name": "images/photos/classroom.jpg",
@@ -188,34 +216,6 @@
     "images/photos/student.jpg": {
       "name": "images/photos/student.jpg",
       "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/photos/student.jpg"
-    },
-    "images/patterns/bg-color-wave.svg": {
-      "name": "images/patterns/bg-color-wave.svg",
-      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/patterns/bg-color-wave.svg"
-    },
-    "images/patterns/pattern-1.svg": {
-      "name": "images/patterns/pattern-1.svg",
-      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/patterns/pattern-1.svg"
-    },
-    "images/patterns/pattern-2.png": {
-      "name": "images/patterns/pattern-2.png",
-      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/patterns/pattern-2.png"
-    },
-    "images/icons/social/facebook.svg": {
-      "name": "images/icons/social/facebook.svg",
-      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/icons/social/facebook.svg"
-    },
-    "images/icons/social/instagram.svg": {
-      "name": "images/icons/social/instagram.svg",
-      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/icons/social/instagram.svg"
-    },
-    "images/icons/social/linkedin.svg": {
-      "name": "images/icons/social/linkedin.svg",
-      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/icons/social/linkedin.svg"
-    },
-    "images/icons/social/twitter.svg": {
-      "name": "images/icons/social/twitter.svg",
-      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/icons/social/twitter.svg"
     },
     "images/icons/zaps/zap-01.svg": {
       "name": "images/icons/zaps/zap-01.svg",
@@ -244,6 +244,22 @@
     "images/icons/zaps/zap-07.svg": {
       "name": "images/icons/zaps/zap-07.svg",
       "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/icons/zaps/zap-07.svg"
+    },
+    "images/icons/social/facebook.svg": {
+      "name": "images/icons/social/facebook.svg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/icons/social/facebook.svg"
+    },
+    "images/icons/social/instagram.svg": {
+      "name": "images/icons/social/instagram.svg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/icons/social/instagram.svg"
+    },
+    "images/icons/social/linkedin.svg": {
+      "name": "images/icons/social/linkedin.svg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/icons/social/linkedin.svg"
+    },
+    "images/icons/social/twitter.svg": {
+      "name": "images/icons/social/twitter.svg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/icons/social/twitter.svg"
     },
     "video/video-1.mp4": {
       "name": "video/video-1.mp4",
