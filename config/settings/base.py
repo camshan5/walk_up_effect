@@ -5,6 +5,8 @@ from pathlib import Path
 
 import environ
 
+import django_heroku
+
 ROOT_DIR = Path(__file__).resolve(strict=True).parent.parent.parent
 # walk_up_effect/
 APPS_DIR = ROOT_DIR / "walk_up_effect"
@@ -293,5 +295,8 @@ WEBPACK_LOADER = {
 }
 
 # Stripe required settings
-STRIPE_PUBLISHABLE_KEY = env("STRIPE_PUBLISHABLE_KEY")
 STRIPE_SECRET_KEY = env("STRIPE_SECRET_KEY")
+STRIPE_PUBLISHABLE_KEY = env("STRIPE_PUBLISHABLE_KEY")
+
+
+django_heroku.settings(locals())
