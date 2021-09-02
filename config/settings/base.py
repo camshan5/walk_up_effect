@@ -8,6 +8,9 @@ import environ
 import django_heroku
 
 ROOT_DIR = Path(__file__).resolve(strict=True).parent.parent.parent
+
+BASE_DIR = ROOT_DIR  # syncing with django-heroku
+
 # walk_up_effect/
 APPS_DIR = ROOT_DIR / "walk_up_effect"
 env = environ.Env()
