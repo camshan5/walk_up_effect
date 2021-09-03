@@ -1,7 +1,0 @@
-# PostgreSQL
-# ------------------------------------------------------------------------------
-POSTGRES_HOST=postgres
-POSTGRES_PORT=5432
-POSTGRES_DB=walk_up_effect
-POSTGRES_USER=lPJgrKOZblhNfBtuqesIftbLqRZeMqFL
-POSTGRES_PASSWORD=miqMZ5idLwA9XccfdroAeUb7wtWJGE60ShoVzPDM8z0JPszF8aC83v5UjD4cvRKd

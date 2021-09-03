@@ -5,21 +5,15 @@ from pathlib import Path
 
 import environ
 
-import django_heroku
 
 ROOT_DIR = Path(__file__).resolve(strict=True).parent.parent.parent
-
-BASE_DIR = ROOT_DIR  # syncing with django-heroku
 
 # walk_up_effect/
 APPS_DIR = ROOT_DIR / "walk_up_effect"
 env = environ.Env()
 
-READ_DOT_ENV_FILE = env.bool("DJANGO_READ_DOT_ENV_FILE", default=False)
-
-if READ_DOT_ENV_FILE:
-    # OS environment variables take precedence over variables from .env
-    env.read_env(str(ROOT_DIR / ".env"))
+# OS environment variables take precedence over variables from .env
+env.read_env(str(ROOT_DIR / ".env"))
 
 # GENERAL
 # ------------------------------------------------------------------------------
@@ -300,6 +294,3 @@ WEBPACK_LOADER = {
 # Stripe required settings
 STRIPE_SECRET_KEY = env("STRIPE_SECRET_KEY")
 STRIPE_PUBLISHABLE_KEY = env("STRIPE_PUBLISHABLE_KEY")
-
-
-django_heroku.settings(locals())
