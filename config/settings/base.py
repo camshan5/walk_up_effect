@@ -5,7 +5,6 @@ from pathlib import Path
 
 import environ
 
-
 ROOT_DIR = Path(__file__).resolve(strict=True).parent.parent.parent
 
 # walk_up_effect/
@@ -242,7 +241,7 @@ LOGGING = {
     "formatters": {
         "verbose": {
             "format": "%(levelname)s %(asctime)s %(module)s "
-            "%(process)d %(thread)d %(message)s"
+                      "%(process)d %(thread)d %(message)s"
         }
     },
     "handlers": {
@@ -254,7 +253,6 @@ LOGGING = {
     },
     "root": {"level": "INFO", "handlers": ["console"]},
 }
-
 
 # django-allauth
 # ------------------------------------------------------------------------------
@@ -294,3 +292,6 @@ WEBPACK_LOADER = {
 # Stripe required settings
 STRIPE_SECRET_KEY = env("STRIPE_SECRET_KEY")
 STRIPE_PUBLISHABLE_KEY = env("STRIPE_PUBLISHABLE_KEY")
+
+# Overriding Django 3.2 Update to BigAutoField for PKs
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
