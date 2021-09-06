@@ -9,7 +9,7 @@
 
   <!-- HEADER -->
   <section class="mt-n11 pt-12 pb-4 pt-md-14 bg-black bg-pattern-2">
-    <div class="container">
+    <div class="container pb-12">
       <div class="row justify-content-center">
         <div class="col-12 col-lg-10 text-center">
         <h1
@@ -30,14 +30,36 @@
         </div>
       </div>
     </div>
+
+    <!-- Scroll to Next Section Trigger -->
+    <div class="position-absolute right-0 left-0">
+      <!-- Divider -->
+      <div class="bg-dark">
+        <div
+          class="container border-top border-gray-800"
+          style="z-index: auto"
+        ></div>
+      </div>
+      <!-- Button -->
+      <div class="position-absolute center">
+        <a
+          class="btn btn-light btn-rounded-circle lift"
+          data-scroll
+          aria-label="scroll-to-next"
+          href="#payment"
+        >
+          <i class="fe fe-arrow-down"></i>
+        </a>
+      </div>
+    </div>
+
   </section>
 
     <!-- LOCATION -->
     <section class="py-14 bg-gradient-dark-black">
       <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-6">
-
+        <div class="row" id="payment">
+          <div class="col-12 col-md-6 col-lg-5">
             <div class="position-relative vw-md-33 vw-75 d-md-block">
 
              <!-- Card -->
@@ -49,7 +71,7 @@
                   <!-- Preheading -->
                   <div class="text-center mb-6">
                     <span class="badge rounded-pill bg-primary-soft">
-                      <span class="h6 text-uppercase">Donation</span>
+                      <span class="h6 text-uppercase text-gray-700">Payment Information</span>
                     </span>
                   </div>
                     <!-- Form -->
@@ -59,10 +81,10 @@
             </div>
           </div>
 
-          <div class="col-12 col-md-6 col-lg-5 offset-lg-1"
+          <div class="col-12 col-md-6 col-lg-7"  {# offset-lg-1#}
                data-aos="fade-up"
                data-aos-delay="100"
-          >
+            >
             <!-- Heading -->
             <h2 class="text-white">
               Your donation...<br>
