@@ -149,6 +149,10 @@
       "name": "images/avatars/team-trevor.webp",
       "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/avatars/team-trevor.webp"
     },
+    "images/favicons/favicon.ico": {
+      "name": "images/favicons/favicon.ico",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/favicons/favicon.ico"
+    },
     "images/covers/cover-1-min.jpg": {
       "name": "images/covers/cover-1-min.jpg",
       "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/covers/cover-1-min.jpg"
@@ -168,10 +172,6 @@
     "images/covers/cover-19.webp": {
       "name": "images/covers/cover-19.webp",
       "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/covers/cover-19.webp"
-    },
-    "images/favicons/favicon.ico": {
-      "name": "images/favicons/favicon.ico",
-      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/favicons/favicon.ico"
     },
     "images/patterns/bg-color-wave.svg": {
       "name": "images/patterns/bg-color-wave.svg",
