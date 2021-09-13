@@ -23,7 +23,7 @@ $black: #161c2d !default;
 
 $primary: #61dafb !default;
 $secondary: $gray-700 !default;
-$primary-desat: #445677 !default;
+$primary-desat: #acebfd !default;
 $success: #61fbcf !default;
 $info: #61dafb !default; // 1c85ff
 $warning: #fb8261 !default;
@@ -619,7 +619,7 @@ $input-btn-line-height-xs: $line-height-base !default;
 
 // Buttons
 
-$btn-soft-bg-opacity: 0.1 !default;
+$btn-soft-bg-opacity: 0.35 !default;
 
 $btn-line-height-sm: $input-btn-line-height-sm !default;
 $btn-line-height-lg: $input-btn-line-height-lg !default;
@@ -708,7 +708,7 @@ $popover-header-color: $primary !default;
 $badge-padding-y-lg: 0.7em !default;
 $badge-padding-x-lg: 1.15em !default;
 
-$badge-soft-bg-opacity: 0.1 !default;
+$badge-soft-bg-opacity: 0.35 !default;
 
 // Breadcrumbs
 
