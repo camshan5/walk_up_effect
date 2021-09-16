@@ -6,8 +6,6 @@ fetch("/donate/config/") // url endpoint that references a view calling the stri
     // noinspection JSUnresolvedFunction
     let stripe = Stripe(data.publicKey);
 
-    console.log(`Stripe lib: ${stripe}`);
-
     // Create an instance of Elements.
     const elements = stripe.elements();
 
