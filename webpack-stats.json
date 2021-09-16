@@ -149,10 +149,6 @@
       "name": "images/avatars/team-trevor.webp",
       "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/avatars/team-trevor.webp"
     },
-    "images/favicons/favicon.ico": {
-      "name": "images/favicons/favicon.ico",
-      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/favicons/favicon.ico"
-    },
     "images/covers/cover-1-min.jpg": {
       "name": "images/covers/cover-1-min.jpg",
       "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/covers/cover-1-min.jpg"
@@ -173,17 +169,9 @@
       "name": "images/covers/cover-19.webp",
       "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/covers/cover-19.webp"
     },
-    "images/patterns/bg-color-wave.svg": {
-      "name": "images/patterns/bg-color-wave.svg",
-      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/patterns/bg-color-wave.svg"
-    },
-    "images/patterns/pattern-1.svg": {
-      "name": "images/patterns/pattern-1.svg",
-      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/patterns/pattern-1.svg"
-    },
-    "images/patterns/pattern-2.png": {
-      "name": "images/patterns/pattern-2.png",
-      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/patterns/pattern-2.png"
+    "images/favicons/favicon.ico": {
+      "name": "images/favicons/favicon.ico",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/favicons/favicon.ico"
     },
     "images/masks/avatar-group-hover-last.svg": {
       "name": "images/masks/avatar-group-hover-last.svg",
@@ -216,6 +204,18 @@
     "images/photos/student.jpg": {
       "name": "images/photos/student.jpg",
       "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/photos/student.jpg"
+    },
+    "images/patterns/bg-color-wave.svg": {
+      "name": "images/patterns/bg-color-wave.svg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/patterns/bg-color-wave.svg"
+    },
+    "images/patterns/pattern-1.svg": {
+      "name": "images/patterns/pattern-1.svg",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/patterns/pattern-1.svg"
+    },
+    "images/patterns/pattern-2.png": {
+      "name": "images/patterns/pattern-2.png",
+      "path": "/Users/camshan/Developer/Projects/Walk Up Effect/repo/walk_up_effect/walk_up_effect/static/bundle/images/patterns/pattern-2.png"
     },
     "images/icons/social/facebook.svg": {
       "name": "images/icons/social/facebook.svg",

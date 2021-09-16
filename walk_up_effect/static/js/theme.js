@@ -22,4 +22,4 @@ import "./typed";
 
 // User specific files
 import "./user.js";
-// import "./user/stripe";
+import "./user/stripe";

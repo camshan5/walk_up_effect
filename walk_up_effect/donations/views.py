@@ -74,6 +74,8 @@ def payment_home(request):
     return render(request, "donations/home.html")
 
 
+# TODO: Add Error Handling (E.g raise MultiValueDictKeyError)
+
 class ChargeView(View):
     """Creates a new Customer then Charge from the Stripe API."""
 
@@ -83,6 +85,7 @@ class ChargeView(View):
     @staticmethod
     def charge(request):
         # convert to float to get amount in cents when multiplied by 100
+        print(request.POST)
         amount = float(request.POST["amount"]) * 100
 
         customer = stripe.Customer.create(
