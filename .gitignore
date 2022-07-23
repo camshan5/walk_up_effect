@@ -208,16 +208,11 @@ out/
 # JIRA plugin
 atlassian-ide-plugin.xml
 
-# Cursive Clojure plugin
-.idea/replstate.xml
-
 # Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
-
-
 
 ### Windows template
 # Windows thumbnail cache files
@@ -242,7 +237,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
 
 ### macOS template
 # General
@@ -271,20 +265,6 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
-
-
-### SublimeText template
-# Cache files for Sublime Text
-*.tmlanguage.cache
-*.tmPreferences.cache
-*.stTheme.cache
-
-# Workspace files are user-specific
-*.sublime-workspace
-
-# Project files should be checked into the repository, unless a significant
-# proportion of contributors will probably not be using Sublime Text
-# *.sublime-project
 
 # SFTP configuration file
 sftp-config.json
@@ -327,7 +307,6 @@ tags
 walk_up_effect/media/
 
 .pytest_cache/
-
 
 .env
 .envs/*
