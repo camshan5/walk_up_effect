@@ -20,7 +20,7 @@
       <excludeFolder url="file://$MODULE_DIR$/.idea/stylesheetLinters" />
       <excludeFolder url="file://$MODULE_DIR$/staticfiles" />
     </content>
-    <orderEntry type="jdk" jdkName="Poetry (walk_up_effect)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Poetry (walk_up_effect) (2)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="html5shiv" level="application" />
   </component>
