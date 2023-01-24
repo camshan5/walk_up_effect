@@ -4,283 +4,282 @@
 
 {% block content %}
 
-<!-- HOME PAGE HERO -->
-<section
-  class="py-12 py-lg-14 bg-black bg-img-gradient jarallax"
-  data-jarallax
-  data-speed=".8"
->
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 col-lg-10 text-center" style="max-width: 768px">
-        <!-- Heading -->
-        <h1
-          class="display-1 text-white section-header"
-          data-aos="fade-up"
-          data-aos-delay="50"
-        >
-          Its tough to judge someone when you know
-          <span class="zap-02">their&nbsp;story</span>.
-        </h1>
-
-        <!-- Text -->
-        <p
-          class="lead text-gray-500 mb-6 mx-auto"
-          data-aos="fade-up"
-          data-aos-delay="100"
-          style="max-width: 600px"
-        >
-          Help us normalize the conversation behind mental health
-        </p>
-
-        <div class="mb-3 mb-md-6" data-aos="fade-up" data-aos-delay="150">
-          <a
-            type="button"
-            class="btn btn-primary lift font-500 w-15 me-2"
-            href="{% url 'donations:home' %}"
+  <!-- HOME PAGE HERO -->
+  <section
+    class="py-12 py-lg-14 bg-black bg-img-gradient jarallax"
+    data-jarallax
+    data-speed=".8"
+  >
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-10 text-center" style="max-width: 768px">
+          <!-- Heading -->
+          <h1
+            class="display-1 text-white section-header"
+            data-aos="fade-up"
+            data-aos-delay="50"
           >
-            Donate
-          </a>
+            {#<span class="zap-02"></span>#}
+            The #1 Social Media Driven Non-profit
+          </h1>
 
-          <button id="copyBtn" type="button" class="btn btn-primary lift font-500 w-15">
-            Share
-          </button>
+          <!-- Text -->
+          <p
+            class="lead text-gray-500 mb-6 mx-auto"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            style="max-width: 600px"
+          >
+            Help us normalize the conversation behind mental health
+          </p>
 
-          <!-- prettier-ignore -->
-          <textarea id="textId" hidden>
+          <div class="mb-3 mb-md-6" data-aos="fade-up" data-aos-delay="150">
+            <a
+              type="button"
+              class="btn btn-primary lift font-500 w-15 me-2"
+              href="{% url 'donations:home' %}"
+            >
+              Donate
+            </a>
+
+            <button id="copyBtn" type="button" class="btn btn-primary lift font-500 w-15">
+              Share
+            </button>
+
+            <!-- prettier-ignore -->
+            <textarea id="textId" hidden>
             Please join and help me raise money for my school to fund mental health support on campus and within our community. Make a donation at: {{ request.build_absolute_uri }}donate/
           </textarea>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="position-absolute right-0 bottom-0 left-0">
-    <!-- Divider -->
-    <div class="bg-dark">
-      <div
-        class="container border-top border-gray-800"
-        style="z-index: auto"
-      ></div>
-    </div>
-
-    <div class="position-absolute center">
-      <a
-        class="btn btn-light btn-rounded-circle lift"
-        data-scroll
-        aria-label="scroll-to-next"
-        href="#what-we-do"
-      >
-        <i class="fe fe-arrow-down"></i>
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- WHAT WE DO -->
-<section class="bg-gradient-dark-black py-10 py-md-12">
-  <div class="container">
-    <div class="row justify-content-center" id="what-we-do">
-      <div class="col-12 col-lg-7 text-center">
-        <h2 class="display-3 section-header text-white">What We Do</h2>
-        <p class="lead text-muted mb-9">
-          We provide two weeks of
-          <span class="text-white zap-03">Education & Inspiration</span> that
-          will bring hope and strength to students and staff.
-        </p>
-      </div>
-    </div>
-    <!-- / END Header  -->
-
-    <!-- Cards Row -->
-    <div class="row d-flex justify-content-center mt-n7">
-      <div class="col-12 col-sm-6 col-lg-4 mt-7">
-        <!-- Card -->
-        <div class="card h-100 bg-dark rounded-3 shadow-multicolor-1">
-          <div class="card-body p-5 pb-0 my-auto">
-            <!-- Image -->
-            <div
-              class="img-fluid w-50 svg-shim mx-auto"
-              style="max-width: 150px"
-            >
-              {% include "partials/icons/artwork/educate.svg" %}
-            </div>
-          </div>
-          <div class="card-body text-center p-5">
-            <!-- Heading -->
-            <h3 class="section-header text-uppercase text-white">Educate</h3>
-            <p class="text-muted mb-4">Students on mental health.</p>
-            <!-- Badge -->
-            <a
-              href="#"
-              class="badge rounded-pill bg-black"
-              data-bs-toggle="modal"
-              data-bs-target="#modalEducate"
-            >
-              <span class="h6 text-uppercase"> Learn More </span>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-lg-4 mt-7">
-        <!-- Card -->
-        <div class="card h-100 bg-dark rounded-3">
-          <div class="card-body p-5 pb-0 my-auto">
-            <!-- Image -->
-            <div
-              class="img-fluid w-50 svg-shim mx-auto"
-              style="max-width: 150px"
-            >
-              {% include "partials/icons/artwork/inspire.svg" %}
-            </div>
-          </div>
-          <div class="card-body text-center p-5">
-            <!-- Heading -->
-            <h3 class="section-header text-uppercase text-white">Inspire</h3>
-            <p class="text-muted mb-4">Students to <i>Walk Up</i></p>
-            <!-- Badge -->
-            <a
-              href="#"
-              class="badge rounded-pill bg-black"
-              data-bs-toggle="modal"
-              data-bs-target="#modalInspire"
-            >
-              <span class="h6 text-uppercase"> Learn More</span>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-lg-4 mt-7">
-        <!-- Card -->
-        <div class="card h-100 bg-dark rounded-3">
-          <div class="card-body p-5 pb-0 my-auto">
-            <!-- Image -->
-            <div
-              class="img-fluid w-50 svg-shim mx-auto"
-              style="max-width: 150px"
-            >
-              {% include "partials/icons/artwork/provide.svg" %}
-            </div>
-          </div>
-          <div class="card-body text-center p-5">
-            <!-- Heading -->
-            <h3 class="section-header text-uppercase text-white">Provide</h3>
-            <p class="text-muted mb-4">Mental health support</p>
-            <!-- Badge -->
-            <a
-              href="#"
-              class="badge rounded-pill bg-black"
-              data-bs-toggle="modal"
-              data-bs-target="#modalProvide"
-            >
-              <span class="h6 text-uppercase"> Learn More</span>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-lg-4 mt-7">
-        <!-- Card -->
-        <div class="card h-100 bg-dark rounded-3">
-          <div class="card-body p-5 pb-0 my-auto">
-            <!-- Image -->
-            <div
-              class="img-fluid w-50 svg-shim mx-auto"
-              style="max-width: 150px"
-            >
-              {% include "partials/icons/artwork/motivate.svg" %}
-            </div>
-          </div>
-          <div class="card-body text-center p-5">
-            <!-- Heading -->
-            <h3 class="section-header text-uppercase text-white">Motivate</h3>
-            <p class="text-muted mb-4">
-              Students by bringing speakers to campus
-            </p>
-            <!-- Badge -->
-            <a
-              href="#"
-              class="badge rounded-pill bg-black"
-              data-bs-toggle="modal"
-              data-bs-target="#modalMotivate"
-            >
-              <span class="h6 text-uppercase"> Learn More</span>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-lg-4 mt-7">
-        <!-- Card -->
-        <div class="card h-100 bg-dark rounded-3 shadow-multicolor-2">
-          <div class="card-body p-5 pb-0 my-auto">
-            <!-- Image -->
-            <div
-              class="img-fluid w-50 svg-shim mx-auto"
-              style="max-width: 150px"
-            >
-              {% include "partials/icons/artwork/change.svg" %}
-            </div>
-          </div>
-          <div class="card-body text-center p-5">
-            <!-- Heading -->
-            <h3 class="section-header text-uppercase text-white">Change</h3>
-            <p class="text-muted mb-4">
-              We want to change lives and provide hope!
-            </p>
-            <!-- Badge -->
-            <a
-              href="#"
-              class="badge rounded-pill bg-black"
-              data-bs-toggle="modal"
-              data-bs-target="#modalChange"
-            >
-              <span class="h6 text-uppercase"> Learn More</span>
-            </a>
           </div>
         </div>
       </div>
     </div>
-    <!-- / END Cards Row -->
-  </div>
-</section>
 
-<!-- WALK UP STEPS -->
-<section class="pt-8 pt-md-11 bg-black" id="walk-up-steps">
-  {% include 'partials/sections/walk-up-steps.html' %}
-</section>
+    <div class="position-absolute right-0 bottom-0 left-0">
+      <!-- Divider -->
+      <div class="bg-dark">
+        <div
+          class="container border-top border-gray-800"
+          style="z-index: auto"
+        ></div>
+      </div>
 
-<!-- HOW TO WALK UP -->
-<section class="pt-8 pt-md-11 bg-black pb-sm-8">
-  {% include 'partials/sections/how-to-walk-up.html' %}
-</section>
+      <div class="position-absolute center">
+        <a
+          class="btn btn-light btn-rounded-circle lift"
+          data-scroll
+          aria-label="scroll-to-next"
+          href="#what-we-do"
+        >
+          <i class="fe fe-arrow-down"></i>
+        </a>
+      </div>
+    </div>
+  </section>
 
-<!-- IMAGE DIVIDER -->
-<!-- prettier-ignore -->
-<section
-  class="py-14 py-lg-16 overlay overlay-black overlay-10 jarallax"
-  data-jarallax
-  data-speed=".8"
-  style="background-image: url({% static 'images/covers/cover-1-min.jpg' %})"
->
-  <!-- Shape -->
-  <div class="shape shape-top shape-fluid-x svg-shim text-black">
-    {% include "partials/shapes/angles/angle-top.svg" %}
-  </div>
+  <!-- WHAT WE DO -->
+  <section class="bg-gradient-dark-black py-10 py-md-12">
+    <div class="container">
+      <div class="row justify-content-center" id="what-we-do">
+        <div class="col-12 col-lg-7 text-center">
+          <h2 class="display-3 section-header text-white">What We Do</h2>
+          <p class="lead text-muted mb-9">
+            We provide communities with fun, entertaining, and
+            <span class="text-white zap-03">inspirational</span> events.
+          </p>
+        </div>
+      </div>
+      <!-- / END Header  -->
 
-  <!-- Shape -->
-  <div class="shape shape-bottom shape-fluid-x svg-shim text-black">
-    {% include "partials/shapes/angles/angle-bottom.svg" %}
-  </div>
-</section>
+      <!-- Cards Row -->
+      <div class="row d-flex justify-content-center mt-n7">
+        <div class="col-12 col-sm-6 col-lg-4 mt-7">
+          <!-- Card -->
+          <div class="card h-100 bg-dark rounded-3 shadow-multicolor-1">
+            <div class="card-body p-5 pb-0 my-auto">
+              <!-- Image -->
+              <div
+                class="img-fluid w-50 svg-shim mx-auto"
+                style="max-width: 150px"
+              >
+                {% include "partials/icons/artwork/educate.svg" %}
+              </div>
+            </div>
+            <div class="card-body text-center p-5">
+              <!-- Heading -->
+              <h3 class="section-header text-uppercase text-white">Educate</h3>
+              <p class="text-muted mb-4">Individuals on mental health.</p>
+              <!-- Badge -->
+              <a
+                href="#"
+                class="badge rounded-pill bg-black"
+                data-bs-toggle="modal"
+                data-bs-target="#modalEducate"
+              >
+                <span class="h6 text-uppercase"> Learn More </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 mt-7">
+          <!-- Card -->
+          <div class="card h-100 bg-dark rounded-3">
+            <div class="card-body p-5 pb-0 my-auto">
+              <!-- Image -->
+              <div
+                class="img-fluid w-50 svg-shim mx-auto"
+                style="max-width: 150px"
+              >
+                {% include "partials/icons/artwork/inspire.svg" %}
+              </div>
+            </div>
+            <div class="card-body text-center p-5">
+              <!-- Heading -->
+              <h3 class="section-header text-uppercase text-white">Inspire</h3>
+              <p class="text-muted mb-4">Students to <i>Walk Up</i></p>
+              <!-- Badge -->
+              <a
+                href="#"
+                class="badge rounded-pill bg-black"
+                data-bs-toggle="modal"
+                data-bs-target="#modalInspire"
+              >
+                <span class="h6 text-uppercase"> Learn More</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 mt-7">
+          <!-- Card -->
+          <div class="card h-100 bg-dark rounded-3">
+            <div class="card-body p-5 pb-0 my-auto">
+              <!-- Image -->
+              <div
+                class="img-fluid w-50 svg-shim mx-auto"
+                style="max-width: 150px"
+              >
+                {% include "partials/icons/artwork/provide.svg" %}
+              </div>
+            </div>
+            <div class="card-body text-center p-5">
+              <!-- Heading -->
+              <h3 class="section-header text-uppercase text-white">Provide</h3>
+              <p class="text-muted mb-4">Mental health support</p>
+              <!-- Badge -->
+              <a
+                href="#"
+                class="badge rounded-pill bg-black"
+                data-bs-toggle="modal"
+                data-bs-target="#modalProvide"
+              >
+                <span class="h6 text-uppercase"> Learn More</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 mt-7">
+          <!-- Card -->
+          <div class="card h-100 bg-dark rounded-3">
+            <div class="card-body p-5 pb-0 my-auto">
+              <!-- Image -->
+              <div
+                class="img-fluid w-50 svg-shim mx-auto"
+                style="max-width: 150px"
+              >
+                {% include "partials/icons/artwork/motivate.svg" %}
+              </div>
+            </div>
+            <div class="card-body text-center p-5">
+              <!-- Heading -->
+              <h3 class="section-header text-uppercase text-white">Motivate</h3>
+              <p class="text-muted mb-4">
+                Individuals through the power of storytelling.
+              </p>
+              <!-- Badge -->
+              <a
+                href="#"
+                class="badge rounded-pill bg-black"
+                data-bs-toggle="modal"
+                data-bs-target="#modalMotivate"
+              >
+                <span class="h6 text-uppercase"> Learn More</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 mt-7">
+          <!-- Card -->
+          <div class="card h-100 bg-dark rounded-3 shadow-multicolor-2">
+            <div class="card-body p-5 pb-0 my-auto">
+              <!-- Image -->
+              <div
+                class="img-fluid w-50 svg-shim mx-auto"
+                style="max-width: 150px"
+              >
+                {% include "partials/icons/artwork/change.svg" %}
+              </div>
+            </div>
+            <div class="card-body text-center p-5">
+              <!-- Heading -->
+              <h3 class="section-header text-uppercase text-white">Change</h3>
+              <p class="text-muted mb-4">
+                We want to change lives and provide hope!
+              </p>
+              <!-- Badge -->
+              <a
+                href="#"
+                class="badge rounded-pill bg-black"
+                data-bs-toggle="modal"
+                data-bs-target="#modalChange"
+              >
+                <span class="h6 text-uppercase"> Learn More</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- / END Cards Row -->
+    </div>
+  </section>
 
-<!-- OUR WHY -->
-<section class="py-8 py-md-10 bg-black">
-  {% include 'partials/sections/our-why.html' %}
-</section>
+  <!-- WALK UP STEPS -->
+  <section class="pt-8 pt-md-11 bg-black" id="walk-up-steps">
+    {% include 'partials/sections/walk-up-steps.html' %}
+  </section>
 
-<!-- OUR TEAM -->
-<section class="py-8 py-md-10 bg-black bg-pattern-2">
-  {% include 'partials/sections/our-team.html' %}
-</section>
+  <!-- HOW TO WALK UP -->
+  <section class="pt-8 pt-md-11 bg-black pb-sm-8">
+    {% include 'partials/sections/how-to-walk-up.html' %}
+  </section>
+
+  <!-- IMAGE DIVIDER -->
+  <!-- prettier-ignore -->
+  <section
+    class="py-14 py-lg-16 overlay overlay-black overlay-10 jarallax"
+    data-jarallax
+    data-speed=".8"
+    style="background-image: url({% static 'images/covers/cover-1-min.jpg' %})"
+  >
+    <!-- Shape -->
+    <div class="shape shape-top shape-fluid-x svg-shim text-black">
+      {% include "partials/shapes/angles/angle-top.svg" %}
+    </div>
+
+    <!-- Shape -->
+    <div class="shape shape-bottom shape-fluid-x svg-shim text-black">
+      {% include "partials/shapes/angles/angle-bottom.svg" %}
+    </div>
+  </section>
+
+  <!-- OUR WHY -->
+  <section class="py-8 py-md-10 bg-black">
+    {% include 'partials/sections/our-why.html' %}
+  </section>
+
+  <!-- OUR TEAM -->
+  <section class="py-8 py-md-10 bg-black bg-pattern-2">
+    {% include 'partials/sections/our-team.html' %}
+  </section>
 
 {% endblock content %}
 
