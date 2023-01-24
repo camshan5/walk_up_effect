@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "A Django based web app for The Walk Up Effect organization. Theme licensed from Landkit 2.0.0.",
   "engines": {
-    "node": ">=8"
+    "node": "v16.16.0"
   },
   "browserslist": [
     "last 2 versions"
