@@ -6,7 +6,8 @@ from .base import env
 # https://docs.djangoproject.com/en/dev/ref/settings/#secret-key
 SECRET_KEY = env("DJANGO_SECRET_KEY")
 # https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = env.list("DJANGO_ALLOWED_HOSTS", default=["thewalkupeffect.org", "www.thewalkupeffect.org"])
+ALLOWED_HOSTS = env.list("DJANGO_ALLOWED_HOSTS",
+                         default=["thewalkupeffect.org", "www.thewalkupeffect.org", "thewalkupeffect.herokuapp.com"])
 
 # DATABASES
 # ------------------------------------------------------------------------------
@@ -163,7 +164,7 @@ LOGGING = {
     "formatters": {
         "verbose": {
             "format": "%(levelname)s %(asctime)s %(module)s "
-            "%(process)d %(thread)d %(message)s"
+                      "%(process)d %(thread)d %(message)s"
         }
     },
     "handlers": {
